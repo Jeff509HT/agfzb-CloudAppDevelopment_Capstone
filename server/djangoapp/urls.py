@@ -10,6 +10,7 @@ urlpatterns = [
     # name the URL
 
     # path for about view
+<<<<<<< HEAD
     path(route='about', view=views.about, name='about'),
     # path for contact us view
 
@@ -24,6 +25,18 @@ urlpatterns = [
 
     # path for index view
     path('', views.get_dealerships, name='index'),
+=======
+
+    # path for contact us view
+
+    # path for registration
+
+    # path for login
+
+    # path for logout
+
+    path(route='', view=views.get_dealerships, name='index'),
+>>>>>>> 7673487c52ef44f161bbed07aa02bf1930211b6b
 
     # path for dealer reviews view
 
